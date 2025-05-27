@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Hero Section</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0B3D28] text-white font-sans">
+  <section class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-2 items-start gap-10">
+    <!-- Left Content -->
+    <div>
+      <h1 class="text-5xl font-bold leading-tight mb-6">
+        Reliable HVAC for <br />
+        <span class="text-[#D4FFCB]">Every Season</span>
+      </h1>
+      <ul class="space-y-3 text-lg mb-8">
+        <li class="flex items-start gap-2">✅ Certified & Experienced Technicians</li>
+        <li class="flex items-start gap-2">✅ Fast, Reliable Service</li>
+        <li class="flex items-start gap-2">✅ Transparent, Affordable Pricing</li>
+      </ul>
+
+      <!-- Form -->
+      <form class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 max-w-lg">
+        <input type="text" placeholder="Name" class="px-4 py-3 rounded text-black placeholder-gray-600" />
+        <input type="tel" placeholder="Phone" class="px-4 py-3 rounded text-black placeholder-gray-600" />
+        <select class="px-4 py-3 rounded text-black">
+          <option>Service</option>
+          <option>Installation</option>
+          <option>Repair</option>
+        </select>
+        <button type="submit" class="sm:col-span-3 bg-[#2F855A] hover:bg-[#276749] text-white py-3 px-4 rounded font-semibold transition">Submit</button>
+      </form>
+
+      <!-- Logos -->
+      <div class="flex items-center gap-8">
+        <img src="./img/GAF.png" alt="GAF" class="h-6 object-contain" />
+        <img src="./img/nennox.png" alt="Lennox" class="h-6 object-contain" />
+        <img src="./img/americanStandered.png" alt="American Standard" class="h-6 object-contain" />
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="w-full">
+      <!-- Hero Image -->
+      <div class="relative">
+        <img src="./img/hero image.png" alt="Technician" class="w-full rounded-xl" />
+
+        <!-- Warranty Badge -->
+        <div class="absolute top-6 left-6 z-10">
+          <img src="./img/warranty.png" alt="Warranty" class="w-[10rem]" />
+        </div>
+
+        <!-- License -->
+        <div class="absolute top-6 right-6 bg-white text-black text-sm font-semibold px-4 py-2 rounded-full shadow-md">
+          C20-987654
+        </div>
+
+        <!-- Google Rating -->
+        <div class="absolute bottom-6 left-6 bg-white text-black px-4 py-2 rounded-md shadow-md flex items-center gap-2 text-sm font-medium">
+          <img src="./img/google.png" alt="Google" class="h-4 w-4" />
+          4.8 (698)
+        </div>
+      </div>
+      <!-- Work Thumbnails Below -->
+      <div class="mt-6 flex gap-2">
+        <div class="text-center">
+          <img src="./img/work1.jpg" alt="Work 1" class="w-[15rem] h-20 object-cover rounded-lg" />
+          <button class="mt-1 text-xs bg-green-800 hover:bg-green-700 text-white py-1 px-3 rounded">View Details</button>
+        </div>
+        <div class="text-center">
+          <img src="./img/work2.jpg" alt="Work 2" class="w-[15rem] h-20 object-cover rounded-lg" />
+          <button class="mt-1 text-xs bg-green-800 hover:bg-green-700 text-white py-1 px-3 rounded">View Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.rounded-nav-container {
+    border-radius: 25px;
+}
+.max-w-1170 {
+  max-width: 1170px;
+}
+#HERO {
+    background-image: url(/img/herobg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: aliceblue;
+}
