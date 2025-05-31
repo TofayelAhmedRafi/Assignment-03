@@ -4,33 +4,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HVAC Hero Section</title>
+  <!-- Include Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-<section class="py-16 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-      Save Big on Your Next HVAC Project
-    </h2>
 
-    <div class="flex flex-col md:flex-row items-center justify-center gap-6">
-      <!-- Left Promo Block with Image & Text -->
-      <div class="relative rounded-2xl overflow-hidden md:w-1/2 w-full">
-        <img src="./img/work1.jpg" alt="HVAC Offer" class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-green-900 bg-opacity-60 flex flex-col justify-end p-6 text-white">
-          <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded mb-3 w-max">
-            Hot Offer
-          </span>
-          <h3 class="text-2xl font-semibold mb-2">Get $500 OFF New HVAC System Installation!</h3>
-          <p class="text-sm">Upgrade your comfort and save big! Get an instant $500 OFF when you install a brand-new, energy-efficient HVAC system — limited time only!</p>
+
+<section class="py-16 bg-white text-center">
+  <h2 class="text-3xl font-bold text-gray-900 mb-12">How We Bring Comfort to Your Home</h2>
+
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
+    
+    <!-- Step 1 -->
+    <div class="bg-green-50 rounded-2xl overflow-hidden shadow-md">
+      <div class="relative">
+        <img src="./img/h1.jpg" alt="Schedule a Consultation" class="w-full h-56 object-cover" />
+        <div class="absolute bottom-0 left-0 m-4 bg-[#0B5D1E] text-white p-3 rounded-md text-xl">
+          <i class="fa-solid fa-calendar"></i>
         </div>
       </div>
-
-      <!-- Right Image Block -->
-      <div class="rounded-2xl overflow-hidden md:w-1/2 w-full">
-        <img src="./img/heating.jpg" alt="HVAC Technicians" class="w-full h-full object-cover" />
+      <div class="p-5 text-left">
+        <h3 class="text-lg font-semibold text-gray-900">Schedule a Consultation</h3>
+        <p class="text-sm text-gray-600 mt-1">Contact us to book your free consultation with our HVAC experts.</p>
       </div>
     </div>
+
+    <!-- Step 2 -->
+    <div class="bg-green-50 rounded-2xl overflow-hidden shadow-md">
+      <div class="relative">
+        <img src="./img/h2.jpg" alt="Get a Custom Quote" class="w-full h-56 object-cover" />
+        <div class="absolute bottom-0 left-0 m-4 bg-[#0B5D1E] text-white p-3 rounded-md text-xl">
+          <i class="fa-solid fa-book"></i>
+        </div>
+      </div>
+      <div class="p-5 text-left">
+        <h3 class="text-lg font-semibold text-gray-900">Get a Custom Quote</h3>
+        <p class="text-sm text-gray-600 mt-1">We assess your needs and provide a clear, no-obligation quote.</p>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="bg-green-50 rounded-2xl overflow-hidden shadow-md">
+      <div class="relative">
+        <img src="./img/h3.jpg" alt="Professional Installation" class="w-full h-56 object-cover" />
+        <div class="absolute bottom-0 left-0 m-4 bg-[#0B5D1E] text-white p-3 rounded-md text-xl">
+          <i class="fa-solid fa-wrench"></i>
+        </div>
+      </div>
+      <div class="p-5 text-left">
+        <h3 class="text-lg font-semibold text-gray-900">Professional Installation</h3>
+        <p class="text-sm text-gray-600 mt-1">Our certified team installs your system with precision and care.</p>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="bg-green-50 rounded-2xl overflow-hidden shadow-md">
+      <div class="relative">
+        <img src="./img/h4.jpg" alt="Enjoy Total Comfort" class="w-full h-56 object-cover" />
+        <div class="absolute bottom-0 left-0 m-4 bg-[#0B5D1E] text-white p-3 rounded-md text-xl">
+          <i class="fa-solid fa-house"></i>
+        </div>
+      </div>
+      <div class="p-5 text-left">
+        <h3 class="text-lg font-semibold text-gray-900">Enjoy Total Comfort</h3>
+        <p class="text-sm text-gray-600 mt-1">Experience efficient heating and cooling all year round.</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
